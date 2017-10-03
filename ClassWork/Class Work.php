@@ -147,6 +147,13 @@
 		echo "Files are in another form.html and welcome.php";
 		
 		
+		//Date and Time - Oct 3
+		echo "<h2><mark>Class - Oct 3</mark></h2><h3>Date and Time</h3>";
+		date_default_timezone_set("America/New_York");
+		echo "The time is " . date("h:i:sa");
+		
+		echo "Classes are in other file.";
+		
 		?>
 	
 </body>
